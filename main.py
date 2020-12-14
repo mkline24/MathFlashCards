@@ -19,7 +19,7 @@ operator = input("What would you like to practice?(+, -, *) ")
 hwMany = int(input("How many would you like to practice? "))
 mx = int(input("Set the max (enter any whole number): " ))
 mn = int(input("Set the Minimum (enter any whole number): "))
-print(" ")
+print("\n")
 
 if operator == "+":
   for i in range (hwMany):
@@ -27,11 +27,11 @@ if operator == "+":
     a2 = random.randint(mn,mx) #this is "a2" for add 2 and is the second random number to be added
     prob = int(input((str(a1) + " + " + str(a2) + " = ")))
     if prob == a1 + a2:
-      print("Correct!")
-      print(" ")
+      print("Correct!\n")
+   
     else:
-      print("Incorrect. The correct answer was " + str(a1 + a2) + ".")
-      print(" ")
+      print("Incorrect. The correct answer was " + str(a1 + a2) + ". \n")
+
 
 
 elif  operator == "-":
@@ -40,11 +40,9 @@ elif  operator == "-":
     a2 = random.randint(mn,mx) #this is "a2" for add 2 and is the second random number to be added
     prob = int(input((str(a1) + " - " + str(a2) + " = ")))
     if prob == a1 - a2:
-      print("Correct! ")
-      print(" ")
+      print("Correct! \n")
     else:
-      print("Incorrect. The correct answer was " + str(a1 - a2) + ". ")
-      print(" ")
+      print("Incorrect. The correct answer was " + str(a1 - a2) + ". \n")
 
 
 
@@ -54,8 +52,8 @@ elif  operator == "*":
     a2 = random.randint(mn,mx) #this is "a2" for add 2 and is the second random number to be added
     prob = int(input((str(a1) + " * " + str(a2) + " = ")))
     if prob == a1 * a2:
-      print("Correct!")
+      print("Correct!\n")
       print(" ")
     else:
-      print("Incorrect. The correct answer was " + str(a1 * a2) + ".")
+      print("Incorrect. The correct answer was " + str(a1 * a2) + ".\n")
       print(" ")
