@@ -41,8 +41,10 @@ elif  operator == "-":
     prob = int(input((str(a1) + " - " + str(a2) + " = ")))
     if prob == a1 - a2:
       print("Correct! ")
+      print(" ")
     else:
       print("Incorrect. The correct answer was " + str(a1 - a2) + ". ")
+      print(" ")
 
 
 
@@ -53,5 +55,7 @@ elif  operator == "*":
     prob = int(input((str(a1) + " * " + str(a2) + " = ")))
     if prob == a1 * a2:
       print("Correct!")
+      print(" ")
     else:
       print("Incorrect. The correct answer was " + str(a1 * a2) + ".")
+      print(" ")
