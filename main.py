@@ -57,3 +57,5 @@ elif  operator == "*":
     else:
       print("Incorrect. The correct answer was " + str(a1 * a2) + ".\n")
       print(" ")
+
+print("Thanks for practicing your math!")
